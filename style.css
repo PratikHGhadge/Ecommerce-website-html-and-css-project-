@@ -1,0 +1,16 @@
+.logo h1 {
+     font-size: 40px;
+     font-weight: 600px;
+     margin: 0;
+}
+
+.logo h1 span:first-of-type {
+     padding: 5px 10px;
+     border: 1px solid #dddd;
+     margin-right: 5px;
+     color: #D19C97;
+}
+
+.arrange-left {
+     float: left;
+}
