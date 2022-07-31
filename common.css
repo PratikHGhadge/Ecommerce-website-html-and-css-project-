@@ -5,13 +5,19 @@ body {
 
 .header {
      margin-top: 25px;
+     min-height: 60px;
+     height: 100px;
 }
 
 .wrapper {
-     /* background-color: green; */
-     height: 100px;
+     height:fit-content;
      margin-left: 5%;
      margin-right: 5%;
+     margin-bottom: -5px;
+}
+
+.arrange-left {
+     float: left;     
 }
 
 .wid-25 {
@@ -20,6 +26,9 @@ body {
 
 .wid-50 {
      width: 50%;
+}
+.wid-75 {
+     width: 75%;
 }
 
 .search-product input {
@@ -41,6 +50,7 @@ body {
      border: 1px solid #ddd;
      color: #D19C97;
      background-color: #fff;
+     
 }
 
 .search-product {
@@ -66,4 +76,10 @@ body {
 .Selected-Products {
      text-align: right;
      margin-top: 15px;
+}
+
+
+.next-row{
+     clear: both;
+     display: flex;
 }
