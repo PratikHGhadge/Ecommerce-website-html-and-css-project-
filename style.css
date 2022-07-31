@@ -84,23 +84,27 @@
     list-style-type: none;
 }
 
-.shop-menu ul li{
+.shop-menu ul li {
     padding: 20px;
     min-width: 75px;
 }
 
-.shop-menu ul.dropdown{
+.shop-menu ul.dropdown {
     display: none;
     border: 1px solid #ddd;
     position: absolute;
     box-shadow: #ddd 1px 1px 4px;
 }
 
-.shop-menu ul li a{
+.shop-menu ul li a {
     color: #333;
     text-decoration: none;
 }
 
-.dropdown-head:hover ul.dropdown{
+.shop-menu ul li a:hover {
+    color: #D19C97;
+}
+
+.dropdown-head:hover ul.dropdown {
     display: block
 }
