@@ -23,6 +23,9 @@ body {
 .wid-25 {
      width: 25%;
 }
+.wid-33 {
+     width: 33.3%;
+}
 
 .wid-50 {
      width: 50%;
@@ -82,4 +85,35 @@ body {
 .next-row{
      clear: both;
      display: flex;
+}
+
+
+
+.featurs-point{
+     margin-top: 30px;
+     margin-bottom: 30px;
+     border: 1px solid #ddd;
+     padding: 20px;
+}
+
+.featurs-point i{
+     font-size: 30px;
+     color: #D19C97;
+}
+.featurs-point span{
+     font-size: 20px;
+     padding-left: 20px;
+     font-weight: 600;
+}
+
+.category-item{
+     border: 1px solid #ccc;
+     margin-right: 25px;
+     padding: 20px;
+     margin-bottom: 20px;
+     position: relative;
+     right: 10%;
+}
+.category-item img{
+     width: 100%;
 }
